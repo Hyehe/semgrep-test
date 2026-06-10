@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: semgrep/semgrep-action@v1
         with:
-          config: p/owasp-top-10
+          config: auto
